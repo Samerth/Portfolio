@@ -5,7 +5,7 @@
 
 <p align="center">
   <kbd>
-<img src="C:\Users\spsam\Desktop\Websites\8_Portfolio\src\assets\video\portfolio_video.mp4"></img>
+<img src="./assets/assets/video/portfolio_video.mp4"></img>
   </kbd>
 </p>
 

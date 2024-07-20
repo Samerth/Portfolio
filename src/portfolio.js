@@ -49,14 +49,21 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "EXPERIENCED FULL STACK DEVELOPER WITH A PASSION FOR EXPLORING NEW TECHNOLOGIES",
+  subTitle:
+    "EXPERIENCED FULL STACK DEVELOPER WITH A PASSION FOR EXPLORING NEW TECHNOLOGIES",
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for web and mobile applications"),
+    emoji(
+      "⚡ Develop highly interactive Front end / User Interfaces for web and mobile applications"
+    ),
     emoji("⚡ Build robust backend systems and APIs using modern technologies"),
-    emoji("⚡ Integration of third-party services such as Firebase, AWS, and Digital Ocean"),
+    emoji(
+      "⚡ Integration of third-party services such as Firebase, AWS, and Digital Ocean"
+    ),
     emoji("⚡ Implement secure authentication and authorization mechanisms"),
     emoji("⚡ Develop and deploy Progressive Web Applications (PWA)"),
-    emoji("⚡ Perform data analysis and visualization to support decision-making")
+    emoji(
+      "⚡ Perform data analysis and visualization to support decision-making"
+    )
   ],
 
   softwareSkills: [
@@ -149,7 +156,7 @@ const educationInfo = {
       schoolName: "University Canada West",
       logo: require("./assets/images/ucw_logo.jpg"),
       subHeader: "MBA (Data Analytics)",
-      duration: "January 2023 - September 2024",
+      duration: "January 2023 - September 2024"
       // desc: "Participated in the research of Data Analytics and published 3 papers.",
       // descBullets: [
       //   "Conducted research on data-driven decision-making",
@@ -160,7 +167,7 @@ const educationInfo = {
       schoolName: "SRM University",
       logo: require("./assets/images/Srm_logo.png"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2016 - April 2020",
+      duration: "September 2016 - April 2020"
       // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, and more.",
       // descBullets: ["Developed a web application as a final year project"]
     }
@@ -236,7 +243,6 @@ const workExperiences = {
   ]
 };
 
-
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
 
@@ -254,7 +260,8 @@ const bigProjects = {
     {
       image: require("./assets/images/SA_logo.png"),
       projectName: "Scott Asbestos",
-      projectDesc: "Developed a professional business website for Scott Asbestos, featuring a clean design and user-friendly interface. Utilized HTML, CSS, and JavaScript to create a responsive and interactive site that enhances the company's online presence and provides valuable information to clients.",
+      projectDesc:
+        "Developed a professional business website for Scott Asbestos, featuring a clean design and user-friendly interface. Utilized HTML, CSS, and JavaScript to create a responsive and interactive site that enhances the company's online presence and provides valuable information to clients.",
       footerLink: [
         {
           name: "Visit Website",
@@ -265,7 +272,8 @@ const bigProjects = {
     {
       image: require("./assets/images/WSC_logo.jpg"),
       projectName: "WestSide Contracting",
-      projectDesc: "Created a dynamic website for WestSide Contracting to showcase their services and projects. The site includes detailed service descriptions, a portfolio of completed projects, and contact information, all designed with a focus on accessibility and ease of use.",
+      projectDesc:
+        "Created a dynamic website for WestSide Contracting to showcase their services and projects. The site includes detailed service descriptions, a portfolio of completed projects, and contact information, all designed with a focus on accessibility and ease of use.",
       footerLink: [
         {
           name: "Visit Website",
@@ -276,7 +284,8 @@ const bigProjects = {
     {
       image: require("./assets/images/ucw_logo.jpg"),
       projectName: "PDF Master",
-      projectDesc: "Engineered a Flask-based application, PDF Master, to automate the extraction and processing of data from course and textbook PDFs. This tool streamlined the management of educational resources, significantly reducing manual processing time and increasing data accuracy.",
+      projectDesc:
+        "Engineered a Flask-based application, PDF Master, to automate the extraction and processing of data from course and textbook PDFs. This tool streamlined the management of educational resources, significantly reducing manual processing time and increasing data accuracy.",
       footerLink: [
         {
           name: "Visit Website",
@@ -287,7 +296,8 @@ const bigProjects = {
     {
       image: require("./assets/images/CodSphere_logo.webp"),
       projectName: "CodSphere",
-      projectDesc: "Designed and developed CodSphere, a web design and SEO agency based in Vancouver. The platform showcases the agency’s portfolio of web design and SEO projects, highlighting their expertise in creating visually appealing and search-optimized websites for a variety of clients.",
+      projectDesc:
+        "Designed and developed CodSphere, a web design and SEO agency based in Vancouver. The platform showcases the agency’s portfolio of web design and SEO projects, highlighting their expertise in creating visually appealing and search-optimized websites for a variety of clients.",
       footerLink: [
         {
           name: "Visit Website",
@@ -295,11 +305,9 @@ const bigProjects = {
         }
       ]
     }
-
   ],
   display: true // Set false to hide this section, defaults to true
 };
-
 
 // Achievement Section
 // Include certificates, talks etc

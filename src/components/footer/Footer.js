@@ -13,9 +13,8 @@ export default function Footer() {
           {emoji("Deven")}
         </p>
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          
           <a href="https://github.com/samerth">
-          &copy; 2024 Samerth Pathak. All Rights Reserved.
+            &copy; 2024 Samerth Pathak. All Rights Reserved.
           </a>
         </p>
       </div>
